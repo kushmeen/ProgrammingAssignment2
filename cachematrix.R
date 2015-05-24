@@ -1,12 +1,15 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-## These functions are used to create, store and recall a matrix and it's inverse from cache.
+## These functions are used to create, store and recall a matrix
+## and it's inverse from cache.
 
 ## Write a short comment describing this function
-## makeCaceMatrix is an R function which creates custom matrix capable of running four functions in total i.e.
+## makeCaceMatrix is an R function which creates custom matrix 
+##capable of running four functions in total i.e.
 ##1. set stores a matrix in cache
 ##2.get recalls the matrix
-## setInverse and getInverse do the same but for an inverse matrix of the original
+## setInverse and getInverse do the same but for an inverse 
+##matrix of the original
 
 makeCacheMatrix <- function(x = matrix()) {
  m <- NULL
@@ -25,8 +28,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 
-##cacheSolve take a custom matrix created by the makeCacheMatrix function and calculated the inverse matrix
-##Before doing the calculation it checks if the calculation has been done before.
+##cacheSolve take a custom matrix created by the makeCacheMatrix 
+##function and calculated the inverse matrix
+##Before doing the calculation it checks if the calculation 
+##has been done before.
 ## If that is so, calculation is recalled from the cache memory.
 ##If not, then calculation is done and stored in cache.
 
